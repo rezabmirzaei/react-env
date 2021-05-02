@@ -1,5 +1,7 @@
 # Simple React App to test env. variable
 
+A simple bare bone Node/React project for setting/getting environment variables.
+
 See:
 
 * [Create React App](https://create-react-app.dev/)
