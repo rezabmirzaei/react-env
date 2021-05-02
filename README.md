@@ -1,4 +1,4 @@
-# Simple React App to test env. variable
+# Simple React App to test environment variables
 
 A simple bare bone Node/React project for setting/getting environment variables.
 
