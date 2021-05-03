@@ -6,7 +6,8 @@ See:
 
 * [Create React App](https://create-react-app.dev/)
 * [Adding Custom Environment Variables](https://create-react-app.dev/docs/adding-custom-environment-variables/)
-* [dotenv](https://www.npmjs.com/package/dotenv)
+* [env-cmd](https://www.npmjs.com/package/env-cmd)
+* [How to deploy a react-app to different...](https://victorbruce82.medium.com/how-to-deploy-a-react-app-to-different-firebase-hosting-environments-dev-and-prod-da3f4cae9a1e)
 
 ## Available Scripts
 
