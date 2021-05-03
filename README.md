@@ -11,9 +11,9 @@ See:
 
 Create files for your separate environments:
 
-* .env.local
-* .env.development
-* .env.production
+* .env.local -> [http://localhost:3000]
+* .env.development -> [https://react-env-dev.web.app/]
+* .env.production -> [https://react-env-prod.web.app/]
 
 ## Available Scripts
 
