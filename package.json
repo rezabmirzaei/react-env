@@ -3,16 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "dotenv": "^8.2.0",
     "firebase": "^8.4.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "dotenv -e .env.local react-scripts start",
     "build": "react-scripts build",
-    "build:dev": "env-cmd -f .env.development npm run build && firebase deploy -P dev",
-    "build:prod": "env-cmd -f .env.production npm run build && firebase deploy -P prod",
+    "build:dev": "dotenv -e .env.development npm run build && firebase deploy -P dev",
+    "build:prod": "dotenv -e .env.production npm run build && firebase deploy -P prod",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -31,8 +32,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "env-cmd": "^10.1.0"
   }
 }
