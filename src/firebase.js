@@ -1,6 +1,6 @@
 import firebase from 'firebase/app'
 
-const app = firebase.initializeApp({
+const firebaseApp = firebase.initializeApp({
     apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
     authDomain: process.env.REACT_APP_FIREBASE_AUTHDOMAIN,
     projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
@@ -10,4 +10,4 @@ const app = firebase.initializeApp({
     measurementId: process.env.REACT_APP_FIREBASE_MEASUREMENT_ID
 });
 
-export default app;
+export default firebaseApp;
