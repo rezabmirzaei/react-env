@@ -9,6 +9,12 @@ See:
 * [env-cmd](https://www.npmjs.com/package/env-cmd)
 * [How to deploy a react-app to different...](https://victorbruce82.medium.com/how-to-deploy-a-react-app-to-different-firebase-hosting-environments-dev-and-prod-da3f4cae9a1e)
 
+Create files for your separate environments:
+
+* .env.local
+* .env.development
+* .env.production
+
 ## Available Scripts
 
 In the project directory, you can run:
