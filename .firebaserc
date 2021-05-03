@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "react-env-dev"
+    "default": "react-env-dev",
+    "dev": "react-env-dev",
+    "prod": "react-env-prod"
   }
 }

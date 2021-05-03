@@ -1,9 +1,9 @@
-require('dotenv').config()
-
 export default function App() {
   return (
     <div className='ml-5 mt-4'>
-      <p>{process.env.REACT_APP_AUTH_DOMAIN}</p>
+      <h3>Env. testing</h3>
+      <p>{process.env.REACT_APP_FIREBASE_AUTHDOMAIN}</p>
+      <p>{process.env.REACT_APP_BACKEND_URI}</p>
     </div>
   );
 }

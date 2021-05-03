@@ -6,7 +6,7 @@ See:
 
 * [Create React App](https://create-react-app.dev/)
 * [Adding Custom Environment Variables](https://create-react-app.dev/docs/adding-custom-environment-variables/)
-* [dotenc](https://www.npmjs.com/package/dotenv)
+* [dotenv](https://www.npmjs.com/package/dotenv)
 
 ## Available Scripts
 
